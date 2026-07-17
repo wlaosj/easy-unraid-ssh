@@ -1,0 +1,14 @@
+name: easy_unraid_ssh
+description: "Core SSH connection, keypair generation, and execution logic for Easy Unraid."
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dartssh2: ^2.22.0
+  pointycastle: ^4.0.0
+  asn1lib: any
